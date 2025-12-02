@@ -1,3 +1,4 @@
+//Matr1
 #pragma once
 #ifndef MATRIX_THREAD_H
 #define MATRIX_THREAD_H
@@ -20,5 +21,6 @@ public:
 private:
     void multiplyBlockPart(int startRow, int endRow, int startCol, int endCol);
 };
+
 
 #endif
